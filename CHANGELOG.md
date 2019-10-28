@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/informatievlaanderen/response-correlationid-middleware/compare/v1.1.0...v1.1.1) (2019-10-28)
+
+
+### Bug Fixes
+
+* upgrade build tools, move to fake 5 ([a43d9d1](https://github.com/informatievlaanderen/response-correlationid-middleware/commit/a43d9d1))
+
 # [1.1.0](https://github.com/informatievlaanderen/response-correlationid-middleware/compare/v1.0.3...v1.1.0) (2019-08-21)
 
 
