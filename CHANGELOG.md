@@ -1,3 +1,10 @@
+## [2.2.2](https://github.com/informatievlaanderen/response-correlationid-middleware/compare/v2.2.1...v2.2.2) (2020-05-07)
+
+
+### Bug Fixes
+
+* move to GH-actions ([81ed50f](https://github.com/informatievlaanderen/response-correlationid-middleware/commit/81ed50fd589ea6af19862a99eebb4ff38a098303))
+
 ## [2.2.1](https://github.com/informatievlaanderen/response-correlationid-middleware/compare/v2.2.0...v2.2.1) (2020-03-02)
 
 
