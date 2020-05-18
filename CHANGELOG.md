@@ -1,3 +1,10 @@
+## [2.2.3](https://github.com/informatievlaanderen/response-correlationid-middleware/compare/v2.2.2...v2.2.3) (2020-05-18)
+
+
+### Bug Fixes
+
+* move to 3.1.4 ([ad3b181](https://github.com/informatievlaanderen/response-correlationid-middleware/commit/ad3b18136160d4c1c4d4189d042f524945fefbf5))
+
 ## [2.2.2](https://github.com/informatievlaanderen/response-correlationid-middleware/compare/v2.2.1...v2.2.2) (2020-05-07)
 
 
