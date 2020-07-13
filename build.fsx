@@ -14,6 +14,8 @@ let assemblyVersionNumber = (sprintf "%s.0")
 let nugetVersionNumber = (sprintf "%s")
 
 let build = buildSolution assemblyVersionNumber
+let test = testSolution
+
 let publish = publishSolution assemblyVersionNumber
 let pack = packSolution nugetVersionNumber
 
@@ -21,6 +23,7 @@ supportedRuntimeIdentifiers <- [ "linux-x64" ]
 
 // Library ------------------------------------------------------------------------
 Target.create "Lib_Build" (fun _ -> build "Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Middleware.AddCorrelationIdToResponse")
+Target.create "Lib_Test" (fun _ -> test "Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Middleware.AddCorrelationIdToResponse")
 Target.create "Lib_Publish" (fun _ -> publish "Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Middleware.AddCorrelationIdToResponse")
 Target.create "Lib_Pack" (fun _ -> pack "Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Middleware.AddCorrelationIdToResponse")
 
@@ -33,6 +36,7 @@ Target.create "PackageAll" ignore
 ==> "Clean"
 ==> "Restore"
 ==> "Lib_Build"
+==> "Lib_Test"
 ==> "Lib_Publish"
 ==> "PublishAll"
 
@@ -41,4 +45,4 @@ Target.create "PackageAll" ignore
 ==> "Lib_Pack"
 ==> "PackageAll"
 
-Target.runOrDefault "Lib_Build"
+Target.runOrDefault "Lib_Test"

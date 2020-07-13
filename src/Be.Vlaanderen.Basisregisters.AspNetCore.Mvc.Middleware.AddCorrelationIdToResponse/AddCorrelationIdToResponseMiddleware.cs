@@ -8,18 +8,25 @@ namespace Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Middleware
     /// </summary>
     public class AddCorrelationIdToResponseMiddleware
     {
-        private readonly RequestDelegate _next;
-
         public const string HeaderName = "x-correlation-id";
 
-        public AddCorrelationIdToResponseMiddleware(RequestDelegate next) => _next = next;
+        private readonly RequestDelegate _next;
+        private readonly string _headerName;
+
+        public AddCorrelationIdToResponseMiddleware(
+            RequestDelegate next,
+            string headerName = HeaderName)
+        {
+            _next = next;
+            _headerName = headerName;
+        }
 
         public Task Invoke(HttpContext context)
         {
             context
                 .Response
                 .Headers
-                .Add(HeaderName, context.TraceIdentifier);
+                .Add(_headerName, context.TraceIdentifier);
 
             return _next(context);
         }
