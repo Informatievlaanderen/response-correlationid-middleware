@@ -1,3 +1,10 @@
+# [2.3.0](https://github.com/informatievlaanderen/response-correlationid-middleware/compare/v2.2.4...v2.3.0) (2020-07-13)
+
+
+### Features
+
+* allow using custom headername ([aa77e92](https://github.com/informatievlaanderen/response-correlationid-middleware/commit/aa77e92c12e117808631b8df1cfbecd60e153bf5))
+
 ## [2.2.4](https://github.com/informatievlaanderen/response-correlationid-middleware/compare/v2.2.3...v2.2.4) (2020-06-18)
 
 
