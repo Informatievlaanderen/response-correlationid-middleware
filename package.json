@@ -1,6 +1,6 @@
 {
   "name": "response-correlationid-middleware",
-  "version": "2.3.7",
+  "version": "3.0.0",
   "description": "Middleware component which adds the correlation id to the response as header `x-correlation-id`.",
   "author": "Basisregisters Vlaanderen",
   "license": "MIT",
