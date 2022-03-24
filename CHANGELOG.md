@@ -1,3 +1,20 @@
+# [3.0.0](https://github.com/informatievlaanderen/response-correlationid-middleware/compare/v2.3.7...v3.0.0) (2022-03-24)
+
+
+### Bug Fixes
+
+* remove commented code ([9a06f0b](https://github.com/informatievlaanderen/response-correlationid-middleware/commit/9a06f0bbf7535719a24c150994c7fd95380f5744))
+
+
+### Features
+
+* move to dotnet 6.0.3 ([2d00685](https://github.com/informatievlaanderen/response-correlationid-middleware/commit/2d0068571a7bdc3ad77fe6eed8e01622e2dcfd1f))
+
+
+### BREAKING CHANGES
+
+* move to dotnet 6.0.3
+
 # [3.0.0](https://github.com/informatievlaanderen/response-correlationid-middleware/compare/v2.3.7...v3.0.0) (2022-03-23)
 
 
