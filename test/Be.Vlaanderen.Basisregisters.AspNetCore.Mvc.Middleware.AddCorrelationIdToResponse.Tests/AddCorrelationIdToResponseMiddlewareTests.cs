@@ -16,8 +16,7 @@ namespace Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Middleware.AddCorrelationI
 
             await middleware.Invoke(context);
 
-            context.Response.Headers.ContainsKey(AddCorrelationIdToResponseMiddleware.HeaderName).Should().BeTrue();
-            //context.Response.Headers[AddCorrelationIdToResponseMiddleware.HeaderName].Should().BeEquivalentTo(expectedVersion);
+            context.Response.Headers.ContainsKey(AddCorrelationIdToResponseMiddleware.HeaderName).Should().BeTrue();            
         }
 
         [Fact]
@@ -29,8 +28,7 @@ namespace Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Middleware.AddCorrelationI
 
             await middleware.Invoke(context);
 
-            context.Response.Headers.ContainsKey(headerName).Should().BeTrue();
-            //context.Response.Headers[headerName].Should().BeEquivalentTo(expectedVersion);
+            context.Response.Headers.ContainsKey(headerName).Should().BeTrue();            
         }
     }
 }
