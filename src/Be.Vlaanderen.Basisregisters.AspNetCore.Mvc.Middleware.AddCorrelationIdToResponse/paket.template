@@ -15,8 +15,8 @@ licenseUrl https://opensource.org/licenses/MIT
 description ASP.NET Core MVC Middleware to add an 'x-correlation-id' header to all responses.
 
 dependencies
-  framework: net6.0
+  framework: net8.0
 
 files
-  bin\Release\net6.0\Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Middleware.AddCorrelationIdToResponse.dll => lib\net6.0
-  bin\Release\net6.0\Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Middleware.AddCorrelationIdToResponse.pdb => lib\net6.0
+  Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Middleware.AddCorrelationIdToResponse.dll => lib\net8.0
+  Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Middleware.AddCorrelationIdToResponse.pdb => lib\net8.0
