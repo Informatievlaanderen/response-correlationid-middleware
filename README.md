@@ -1,4 +1,4 @@
-# Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Middleware.AddCorrelationIdToResponse [![Build Status](https://github.com/Informatievlaanderen/response-correlationid-middleware/workflows/CI/badge.svg)](https://github.com/Informatievlaanderen/response-correlationid-middleware/actions)
+# Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Middleware.AddCorrelationIdToResponse [![Build Status](https://github.com/Informatievlaanderen/response-correlationid-middleware/workflows/Build/badge.svg)](https://github.com/Informatievlaanderen/response-correlationid-middleware/actions)
 
 ## Goal
 
