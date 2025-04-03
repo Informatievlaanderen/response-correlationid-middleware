@@ -26,7 +26,7 @@ namespace Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Middleware
             context
                 .Response
                 .Headers
-                .Add(_headerName, context.TraceIdentifier);
+                .Append(_headerName, context.TraceIdentifier);
 
             return _next(context);
         }
