@@ -1,3 +1,15 @@
+# [5.0.0](https://github.com/informatievlaanderen/response-correlationid-middleware/compare/v4.0.0...v5.0.0) (2025-04-04)
+
+
+### Code Refactoring
+
+* use renovate and nuget + update pipeline ([ce17279](https://github.com/informatievlaanderen/response-correlationid-middleware/commit/ce17279ea150c0185a6894dfcb1a7c162bcbbbd2))
+
+
+### BREAKING CHANGES
+
+* update to dotnet 9
+
 # [4.0.0](https://github.com/informatievlaanderen/response-correlationid-middleware/compare/v3.0.0...v4.0.0) (2024-03-07)
 
 
